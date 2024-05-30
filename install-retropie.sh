@@ -1,4 +1,5 @@
-sudo apt install git lsb-release
+sudo apt update && sudo apt upgrade
+sudo apt install git lsb-release neofetch htop curl tmux
 cd
 git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
 cd RetroPie-Setup
